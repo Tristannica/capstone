@@ -1,4 +1,4 @@
-# WEBTHIEF
+# [Working Title]
 
 (G46 Capstone Project)
 
