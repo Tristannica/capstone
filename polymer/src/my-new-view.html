@@ -1,0 +1,48 @@
+<!-- Load the Polymer.Element base class -->
+<base href="https://raw-dot-custom-elements.appspot.com/PolymerElements/paper-card/v2.0.0/paper-card/">
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="../iron-icons/iron-icons.html">
+<link rel="import" href="../iron-icons/communication-icons.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../paper-styles/color.html">
+<link rel="import" href="../paper-styles/typography.html">
+<link rel="import" href="paper-card.html">
+
+<script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+<dom-module id="my-new-view">
+  <!-- Defines the element's style and local DOM -->
+  <template>
+    <style>
+      :host {
+        display: block;
+
+        padding: 16px;
+      }
+    </style>
+
+    <h1>New view</h1>
+    <!-- <paper-checkbox>Ready to deploy!</paper-checkbox> -->
+
+    <paper-checkbox checked>Checked</paper-checkbox>
+    <paper-checkbox class="styled">
+      Checkbox
+      <span class="subtitle">
+        With a longer label
+      </span>
+    </paper-checkbox>
+    <paper-checkbox disabled>Disabled</paper-checkbox>
+
+
+  </template>
+  <script>
+    // Your new element extends the Polymer.Element base class
+    class MyNewView extends Polymer.Element {
+      static get is() { return 'my-new-view'; }
+    }
+    //Now, register your new custom element so the browser can use it
+    customElements.define(MyNewView.is, MyNewView);
+  </script>
+</dom-module>

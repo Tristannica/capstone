@@ -1,0 +1,22 @@
+<div>
+  <canvas id="resCanvas" width="680" height="300" style="width: 100%"></canvas>
+</div>
+
+<script type="text/javascript">
+function ResponsiveTCforIE(c) {
+  var e = document.getElementById(c), rw;
+  if(e && e.height && e.width) {
+    rw = parseInt( document.defaultView.getComputedStyle( e ).getPropertyValue( 'width' ) );
+    e.style.height = (rw * e.height / e.width) + 'px';
+  }
+}
+
+if(document.all && document.addEventListener) {
+  window.addEventListener('resize', function() {
+    ResponsiveTCforIE('resCanvas');
+  }, false);
+  window.addEventListener('load', function() {
+    ResponsiveTCforIE('resCanvas');
+  }, false);
+}
+</script>
