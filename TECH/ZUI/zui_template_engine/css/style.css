@@ -503,7 +503,7 @@ a:hover {
 #intro time .day {
   font-size: 64px;
   text-transform: uppercase;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   line-height: 1.0em;
 }
 
@@ -532,7 +532,7 @@ a:hover {
   line-height: 0.8em;
   letter-spacing: 0.5em;
   word-spacing: 0.3em;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
 }
 
 #intro time .time {
@@ -553,7 +553,7 @@ a:hover {
 	border: 1px solid yellow;
 	font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
-  font-size: 104px;
+  font-size: 80px;
   line-height: 0.9em;
   margin: 4px;
 }
@@ -658,7 +658,7 @@ a:hover {
 
 #featuring .feature h2 {
   font-weight: normal;
-  font-family: 'MOD', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
   border-top: 10px solid;
   border-bottom: 10px solid;
@@ -670,7 +670,7 @@ a:hover {
 }
 
 #featuring .provided {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 0.6em;
@@ -697,7 +697,7 @@ a:hover {
 }
 
 #featuring .feature p strong span a {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
 }
 
 #featuring .music p .artist { border-top: 2px solid; }
@@ -719,7 +719,7 @@ a:hover {
   background: white;
   height: 40px;
   padding: 5px 0;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -733,7 +733,7 @@ a:hover {
 }
 
 #featuring .blurb {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   width: 310px;
   position: absolute;
   margin: 0 10px;
@@ -784,14 +784,14 @@ a:hover {
 
 #sponsorz .blurb strong {
   font-weight: normal;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
 }
 
 #sponsorz .blurb a {
   background: white;
   color: #DD0;
   padding: 0.1em 0.3em;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
 }
 
 #sponsorz .blurb a:hover {
@@ -857,7 +857,7 @@ a:hover {
   text-transform: uppercase;
   line-height: 100px;
   border: 2px solid;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   color: white;
 }
 
@@ -877,7 +877,7 @@ a:hover {
 }
 
 #sponsorz .fontfabric b {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   font-weight: normal;
   font-size: 26px;
   text-transform: none;
@@ -932,7 +932,7 @@ a:hover {
   text-align: center;
   padding-top: 10px;
   text-transform: uppercase;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
 }
 
 #flip-cup .arrow a span {
@@ -967,7 +967,7 @@ a:hover {
 
 #flip-cup .rules-title {
   font-weight: normal;
-  font-family: 'MOD', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
   font-size: 52px;
   line-height: 0.8em;
@@ -1026,7 +1026,7 @@ a:hover {
 }
 
 #flip-cup .copy h3 {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 40px;
@@ -1153,7 +1153,7 @@ a:hover {
   line-height: 1.0em;
   border-top: 8px solid;
   padding-top: 5px;
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
 }
 
@@ -1168,7 +1168,7 @@ a:hover {
 }
 
 #teams .team-list .team .player a {
-  font-family: 'Hero', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   font-size: 14px;
 }
 
@@ -1193,7 +1193,7 @@ a:hover {
 /***************** Sign Up form  *****************/
 
 #sign-up-form h2 {
-  font-family: 'MOD', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 124px;
@@ -1250,7 +1250,7 @@ a:hover {
 }
 
 .csstransforms #sign-up-form .close a {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'M+ 2p', sans-serif;
   line-height: 34px;
   display: block;
   height: 100%;

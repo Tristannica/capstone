@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Icon Cloud jQuery</title>
+    <title>SiteSpy</title>
     <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
     <!-- <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -13,8 +13,8 @@
           outlineColour: '#ff00ff',
           reverse: true,
           depth: 0.8,
-          maxSpeed: 0.05
-        },'tags')) {    
+          maxSpeed: 0.01
+        },'tags')) {
           // something went wrong, hide the canvas container
           $('#myCanvasContainer').hide();
         }
@@ -32,7 +32,17 @@
             /*#myCanvasContainer {
                 padding-bottom: 50px;
             }*/
+            #tags{
+                margin: 150px;
+                padding: 100px;
+            }
+            .logo {
+
+            }
       </style>
+      <!-- <div class="logo">
+          <img src="img_copy/site_logo.svg" alt="logo">
+      </div> -->
 
     <div id="myCanvasContainer">
       <canvas width="1500" height="800" id="myCanvas">
